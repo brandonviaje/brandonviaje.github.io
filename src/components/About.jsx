@@ -1,29 +1,21 @@
+import NavBar from "./NavBar";
+
 function About() {
   return (
-    <section id="about" className="w-full mt-80 px-6 text-[#F6F8FF]">
-      <h1 className="font-bold text-center text-5xl mb-12">about me</h1>
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        <div className="md:w-1/2 text-xl leading-relaxed text-center md:text-left">
-          <p>
-            I am a third-year Computer Science student at Ontario Tech
-            University. I focus on building systems-level projects and enjoy
-            exploring low-level concepts, performance, and architecture. My
-            other hobbies include playing piano and cooking.
-          </p>
-
-          <p className="mt-20">
-            I am currently looking for an internship where I can apply what I
-            have learned through my academic coursework and personal projects to
-            a real environment.
-          </p>
-        </div>
-
-        <div className="md:w-1/2 flex justify-center">
-          <img
-            className="w-72 h-100 object-cover rounded-xl shadow-lg"
-            src="/images/me.jpg"
-            alt="Brandon"
-          />
+    <section id="about" className="flex justify-center text-[#F6F8FF]">
+      <div className="flex flex-col mt-15 w-[30em] items-start">
+        <NavBar />
+        <div className="my-10 gap-3">
+          <h1 className="text-6xl text font-black">Brandon Viaje</h1>
+          <h2 className="text-2xl font-medium">CS @ OTU</h2>
+          <h3 className="text-foreground mt-2">
+            I am a student who likes building systems-level projects and enjoys
+            exploring low-level concepts.
+            <br></br>
+            <br></br>
+            My other hobbies include playing piano, video games, rubiks cubing,
+            cooking and web dev.
+          </h3>
         </div>
       </div>
     </section>

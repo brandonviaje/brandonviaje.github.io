@@ -1,17 +1,23 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#272D2D] text-[#F6F8FF] p-4 flex justify-center-safe gap-8 shadow-md">
-      <h1 className="font-bold font-inter text-xl">
-        <a href="#home">home</a>
-      </h1>
-      <h1 className="font-bold font-inter text-xl">
-        <a href="#about">about</a>
-      </h1>
-      <h1 className="font-bold font-inter text-xl">
-        <a href="#projects"> projects</a>
-      </h1>
-      <h1 className="font-bold font-inter text-xl">experience</h1>
-    </nav>
+    <div className="flex justify-around gap-30">
+      <Link className="group" to="/">
+        about
+        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+      </Link>
+
+      <Link className="group" to="/projects">
+        projects
+        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+      </Link>
+
+      <Link className="group" to="/writings">
+        writings
+        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+      </Link>
+    </div>
   );
 }
 
