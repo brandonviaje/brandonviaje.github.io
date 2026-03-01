@@ -2,8 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 
 function NavBar() {
   const location = useLocation();
-  const linkStyles = "group text-base sm:text-lg md:text-xl font-medium transition-colors duration-200";
-  const underline = "block max-w-0 h-[0.1em] bg-white transition-all duration-200 group-hover:max-w-full";
+  const linkStyles =
+    "group text-base sm:text-lg md:text-xl font-medium transition-colors duration-200";
+  const underline =
+    "block max-w-0 h-[0.1em] bg-white transition-all duration-200 group-hover:max-w-full";
 
   return (
     <nav className="w-full flex justify-center sm:justify-start gap-6 sm:gap-10 md:gap-16 mt-6">
@@ -20,9 +22,7 @@ function NavBar() {
       <Link
         to="/projects"
         className={`${linkStyles} ${
-          location.pathname === "/projects"
-            ? "text-white"
-            : "text-gray-300"
+          location.pathname === "/projects" ? "text-white" : "text-gray-300"
         }`}
       >
         projects
@@ -32,9 +32,7 @@ function NavBar() {
       <Link
         to="/writings"
         className={`${linkStyles} ${
-          location.pathname === "/writings"
-            ? "text-white"
-            : "text-gray-300"
+          location.pathname === "/writings" ? "text-white" : "text-gray-300"
         }`}
       >
         writings
