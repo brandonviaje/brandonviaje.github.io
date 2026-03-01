@@ -20,7 +20,7 @@ function About() {
           </h3>
 
           <div className="flex gap-6 mt-6 text-2xl">
-            <a href="mailto:viajebrandon@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:viajebrandon@gmail.com" rel="noopener noreferrer">
               <MdEmail className="hover:text-[#F6F8FF] transition-colors duration-200" />
             </a>
             <a href="https://github.com/brandonviaje" target="_blank" rel="noopener noreferrer">
