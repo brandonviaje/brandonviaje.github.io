@@ -17,25 +17,27 @@ const projectsData = [
 ];
 
 function Projects() {
-
   const [filter, setFilter] = useState("All");
   const categories = ["All", "Systems", "ML", "Web Dev"];
 
   const filteredProjects =
     filter === "All"
       ? projectsData
-      : projectsData.filter((proj) => proj.categories.includes(filter));
+      : projectsData.filter((proj) =>
+          proj.categories.includes(filter)
+        );
 
   return (
-    <section id="projects" className="flex justify-center text-[#F6F8FF]">
-      <div className="flex flex-col mt-15 w-[30em]">
+    <section className="flex justify-center text-[#F6F8FF]">
+      <div className="flex flex-col mt-16 w-full max-w-2xl px-6 sm:px-8">
         <NavBar />
         <SortButtons
           categories={categories}
           currentFilter={filter}
           onFilterChange={setFilter}
         />
-        <div className="flex flex-col mt-4 group">
+
+        <div className="flex flex-col mt-4">
           {filteredProjects.map((proj) => (
             <ProjectCard key={proj.name} project={proj} />
           ))}
@@ -44,5 +46,4 @@ function Projects() {
     </section>
   );
 }
-
 export default Projects;

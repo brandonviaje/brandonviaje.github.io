@@ -1,23 +1,46 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function NavBar() {
+  const location = useLocation();
+  const linkStyles = "group text-base sm:text-lg md:text-xl font-medium transition-colors duration-200";
+  const underline = "block max-w-0 h-[0.1em] bg-white transition-all duration-200 group-hover:max-w-full";
+
   return (
-    <div className="ml-10 flex justify-center gap-30">
-      <Link className="group text-xl font-medium" to="/">
+    <nav className="w-full flex justify-center sm:justify-start gap-6 sm:gap-10 md:gap-16 mt-6">
+      <Link
+        to="/"
+        className={`${linkStyles} ${
+          location.pathname === "/" ? "text-white" : "text-gray-300"
+        }`}
+      >
         about
-        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+        <span className={underline}></span>
       </Link>
 
-      <Link className="group text-xl font-medium" to="/projects">
+      <Link
+        to="/projects"
+        className={`${linkStyles} ${
+          location.pathname === "/projects"
+            ? "text-white"
+            : "text-gray-300"
+        }`}
+      >
         projects
-        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+        <span className={underline}></span>
       </Link>
 
-      <Link className="group text-xl font-medium" to="/writings">
+      <Link
+        to="/writings"
+        className={`${linkStyles} ${
+          location.pathname === "/writings"
+            ? "text-white"
+            : "text-gray-300"
+        }`}
+      >
         writings
-        <span className="block max-w-0 h-[0.1em] bg-white transition-all duration-150 group-hover:max-w-full"></span>
+        <span className={underline}></span>
       </Link>
-    </div>
+    </nav>
   );
 }
 
