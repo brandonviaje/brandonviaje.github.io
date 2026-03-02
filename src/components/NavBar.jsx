@@ -8,7 +8,7 @@ function NavBar() {
     "block max-w-0 h-[0.1em] bg-white transition-all duration-200 group-hover:max-w-full";
 
   return (
-    <nav className="w-full flex justify-center sm:justify-start gap-6 sm:gap-10 md:gap-16 mt-6">
+    <nav className="w-full flex justify-center gap-6 sm:gap-10 md:gap-16 mt-6">
       <Link
         to="/"
         className={`${linkStyles} ${
