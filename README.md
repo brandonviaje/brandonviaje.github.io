@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 # brandonviaje.github.io
-=======
-# React + Vite
-portfolio
+
+personal portfolio with projects and writings in future
