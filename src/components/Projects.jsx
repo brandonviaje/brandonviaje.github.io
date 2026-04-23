@@ -13,6 +13,22 @@ const projectsData = [
     categories: ["Systems"],
   },
   {
+    name: "Clarity",
+    tech: "Python, PyTorch,",
+    description:
+      "Multi-Modal Semantic Vision Engine. Takes an image and generates a caption, open vocabulary object detection and scene classification.",
+    link: "https://github.com/brandonviaje/Clarity",
+    categories: ["ML"],
+  },
+  {
+    name: "cuQuant8",
+    tech: "C++, CUDA, cuBLAS",
+    description:
+      "Built an GEMM Accelerator through building an INT8 quantization pipeline. Compared to an FP32 cuBLAS baseline and ran 86% faster!",
+    link: "https://github.com/brandonviaje/cuQuant8",
+    categories: ["ML", "Systems"],
+  },
+  {
     name: "Echo",
     tech: "Python, Asyncio, OpenAI Whisper, NumPy",
     description: "Voice assistant discord bot that listens to your commands.",
@@ -66,6 +82,14 @@ const projectsData = [
       "An exploratory data analysis where I explored how high-achieving students handle stress, sleep, social life, and physical activity. Just a fun way to apply data analysis to real-life student behavior",
     link: "https://github.com/brandonviaje/Student-Performance-Wellness-Analysis",
     categories: ["ML"],
+  },
+  {
+    name: "Sudoku Solver",
+    tech: "FastAPI, OpenCV, Python, PyTorch, React, Render",
+    description:
+      "Sudoku Solver that takes a picture of a sudoku board, applies gaussian blur and uses a CNN to generate the sudoku board which is solved using a backtracking algorithm (LC. 37)",
+    link: "https://github.com/brandonviaje/Infera",
+    categories: ["ML", "Systems"],
   },
   {
     name: "ViaMate",
