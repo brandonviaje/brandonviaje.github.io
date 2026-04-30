@@ -25,7 +25,7 @@ function About() {
             exploring low-level concepts.
             <br />
             <br />
-            My other hobbies include playing piano, video games, rubik’s cubing,
+            My other hobbies include playing piano, chess, rubik’s cubing,
             cooking and web dev.
           </h3>
 

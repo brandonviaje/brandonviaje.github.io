@@ -6,7 +6,7 @@ import SortButtons from "./SortButtons";
 const projectsData = [
   {
     name: "CacheVault",
-    tech: "C++17, POSIX, Linux",
+    tech: "C++17, POSIX",
     description:
       "In-Memory Database. Helped me understand the fundamentals of networks like TCP protocol and concurrency.",
     link: "https://github.com/brandonviaje/CacheVault",
@@ -74,6 +74,14 @@ const projectsData = [
       "Built a spam detector that classifies a set of emails as SPAM or HAM using the naive bayes approach.",
     link: "https://github.com/brandonviaje/SpamDetector",
     categories: ["ML", "Web Dev"],
+  },
+  {
+    name: "spyder",
+    tech: "C++17, Python, MongoDB, libcurl",
+    description:
+      "Web crawler written in C++, was able to archive 50,000 webpages from wikipedia and the frontier stored 4million+ unique URLs.",
+    link: "https://github.com/brandonviaje/spyder",
+    categories: ["Systems"],
   },
   {
     name: "Student Performance Wellness Analysis",
