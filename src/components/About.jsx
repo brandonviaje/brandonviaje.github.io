@@ -25,7 +25,7 @@ function About() {
           </h1>
 
           <h2 className="text-lg sm:text-xl md:text-2xl mt-3 font-semibold text-blue-400">
-            Computer Science @ Ontario Tech University
+            CS @ Ontario Tech University
           </h2>
 
           <div className="mt-8 space-y-4 text-base md:text-lg leading-relaxed text-gray-400 max-w-prose">
