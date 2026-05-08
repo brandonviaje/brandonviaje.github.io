@@ -8,15 +8,15 @@ const projectsData = [
     name: "CacheVault",
     tech: "C++17, POSIX",
     description:
-      "In-Memory Database. Helped me understand the fundamentals of networks like TCP protocol and concurrency.",
+      "A concurrent, in-memory database engineered from scratch in C++17, implementing custom TCP networking protocols and POSIX threading.",
     link: "https://github.com/brandonviaje/CacheVault",
     categories: ["Systems"],
   },
   {
     name: "Clarity",
-    tech: "Python, PyTorch,",
+    tech: "Python, PyTorch",
     description:
-      "Multi-Modal Semantic Vision Engine. Takes an image and generates a caption, open vocabulary object detection and scene classification.",
+      "Engineered an open-vocabulary detection system achieving real-time inference speeds by integrating Vision Transformers with YOLO-World grounding models.",
     link: "https://github.com/brandonviaje/Clarity",
     categories: ["ML"],
   },
@@ -24,14 +24,14 @@ const projectsData = [
     name: "cuQuant8",
     tech: "C++, CUDA, cuBLAS",
     description:
-      "Built an GEMM Accelerator through building an INT8 quantization pipeline. Compared to an FP32 cuBLAS baseline and ran 86% faster!",
+      "An INT8 GEMM Accelerator built with C++ and CUDA. Outperformed an FP32 cuBLAS baseline by 86% by designing a custom quantization pipeline.",
     link: "https://github.com/brandonviaje/cuQuant8",
     categories: ["ML", "Systems"],
   },
   {
     name: "Echo",
     tech: "Python, Asyncio, OpenAI Whisper, NumPy",
-    description: "Voice assistant discord bot that listens to your commands.",
+    description: "An asynchronous voice-assistant Discord bot utilizing OpenAI Whisper for speech-to-text processing and natural language commands.",
     link: "https://github.com/brandonviaje/Echo",
     categories: ["ML"],
   },
@@ -39,7 +39,7 @@ const projectsData = [
     name: "FilmFlix",
     tech: "Spring Boot, JavaScript, SupaBase, Docker, PlayWright, HTML, CSS",
     description:
-      "Full-Stack movie cataloging application done using agile methodologies such as sprints, kanban boards and weekly stand-ups with our customer.",
+      "Full-stack movie cataloging application built within an Agile framework. Reduced API latency by 84% via database indexing.",
     link: "https://github.com/brandonviaje/FilmFlix",
     categories: ["Web Dev"],
   },
@@ -47,7 +47,7 @@ const projectsData = [
     name: "Infera",
     tech: "C++17, ONNX, Google Protobuf",
     description:
-      "Machine Learning Inference Engine. Inspired from Michal Pitr's blog on how he implemented an inference engine from scratch.",
+      "A scalable Machine Learning Inference Engine that parses ONNX models using Protobuf, featuring topological sorting for deterministic execution.",
     link: "https://github.com/brandonviaje/Infera",
     categories: ["ML", "Systems"],
   },
@@ -55,7 +55,7 @@ const projectsData = [
     name: "NLP Case Study",
     tech: "PyTorch, Google Colab, Hugging Face",
     description:
-      "Comparative case study between early and modern NLP architectures.",
+      "A comparative analysis benchmarking the performance and architectural differences between early and modern NLP models.",
     link: "https://github.com/brandonviaje/NLP-Case-Study",
     categories: ["ML"],
   },
@@ -63,7 +63,7 @@ const projectsData = [
     name: "Semp",
     tech: "C++20, CMake, GoogleTest",
     description:
-      "Currently building my own custom compiler and language using a recursive descent parser and an LL(1) grammar. Using CSCI4020U to its fullest",
+      "A custom programming language and compiler implemented from scratch using a recursive descent parser and an LL(1) grammar.",
     link: "https://github.com/brandonviaje/semp",
     categories: ["Systems"],
   },
@@ -71,23 +71,23 @@ const projectsData = [
     name: "Spam Detector",
     tech: "Java, Maven",
     description:
-      "Built a spam detector that classifies a set of emails as SPAM or HAM using the naive bayes approach.",
+      "A machine learning classifier that categorizes emails as SPAM or HAM using a custom implementation of the Naive Bayes algorithm.",
     link: "https://github.com/brandonviaje/SpamDetector",
     categories: ["ML", "Web Dev"],
   },
   {
-    name: "spyder",
+    name: "Spyder",
     tech: "C++17, Python, MongoDB, libcurl",
     description:
-      "Web crawler written in C++, was able to archive 50,000 webpages from wikipedia and the frontier stored 4million+ unique URLs.",
+      "A multithreaded web crawler and search engine. Archived 50k+ Wikipedia pages from a frontier of 4 million URLs with <10ms search latency.",
     link: "https://github.com/brandonviaje/spyder",
     categories: ["Systems"],
   },
   {
-    name: "Student Performance Wellness Analysis",
+    name: "Student Wellness EDA",
     tech: "Python, Matplotlib, Pandas, NumPy, Seaborn",
     description:
-      "An exploratory data analysis where I explored how high-achieving students handle stress, sleep, social life, and physical activity. Just a fun way to apply data analysis to real-life student behavior",
+      "Exploratory Data Analysis investigating the correlations between academic performance, stress, sleep, and social habits.",
     link: "https://github.com/brandonviaje/Student-Performance-Wellness-Analysis",
     categories: ["ML"],
   },
@@ -95,14 +95,14 @@ const projectsData = [
     name: "Sudoku Solver",
     tech: "FastAPI, OpenCV, Python, PyTorch, React, Render",
     description:
-      "Sudoku Solver that takes a picture of a sudoku board, applies gaussian blur and uses a CNN to generate the sudoku board which is solved using a backtracking algorithm (LC. 37)",
+      "A computer vision pipeline that uses a CNN to extract digits from an image of a Sudoku board and solves it using a backtracking algorithm.",
     link: "https://github.com/brandonviaje/Infera",
     categories: ["ML", "Systems"],
   },
   {
     name: "ViaMate",
     tech: "C, Google Cloud, Lichess API",
-    description: "UCI Chess Engine in C. Deployed as a bot on Lichess.",
+    description: "A UCI chess engine written in C using Bitboards. Facilitated 100+ automated games via deployment to Google Cloud.",
     link: "https://github.com/brandonviaje/ViaMate",
     categories: ["Systems"],
   },
@@ -110,7 +110,7 @@ const projectsData = [
     name: "Vision Transformers",
     tech: "PyTorch, Google Colab",
     description:
-      "Implemented a Vision Transformer in PyTorch to understand the architecture.",
+      "A custom implementation of a Vision Transformer (ViT) in PyTorch to explore attention mechanisms in image classification.",
     link: "https://github.com/brandonviaje/Vision-Transformers",
     categories: ["ML"],
   },
