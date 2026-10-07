@@ -17,7 +17,7 @@ function About() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
-            Open to Fall 2026 Internships
+            Open to Winter 2027 Internships
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight leading-tight bg-gradient-to-br from-white to-gray-500 bg-clip-text text-transparent">
